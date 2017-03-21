@@ -28,14 +28,14 @@ gracefulShutdown = function(message, callback){
 };
 
 //secondary named connection open and close
-logDB.on('connected', function(){
-  console.log('Mongoose connected to ' + dbURIlog);
-});
-
-logDB.close(function(){
-  console.log('Mongoose log disconnected');
-});
-
+// logDB.on('connected', function(){
+//   console.log('Mongoose connected to ' + dbURIlog);
+// });
+//
+// logDB.close(function(){
+//   console.log('Mongoose log disconnected');
+// });
+//
 
 //begin section of termination handlers
 
