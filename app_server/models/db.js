@@ -3,8 +3,8 @@ var dbURI = "mongodb://heroku_zh58mm6r:b0fo05f7u8quemctlhndonhc1u@ds137090.mlab.
 var gracefulShutdown;
 
 //declarations for secondary database
-var dbURIlog = 'mongodb://localhost/Loc8rLog';
-var logDB = mongoose.createConnection(dbURIlog);
+//var dbURIlog = 'mongodb://localhost/Loc8rLog';
+// var logDB = mongoose.createConnection(dbURIlog);
 
 mongoose.connect(dbURI);
 
