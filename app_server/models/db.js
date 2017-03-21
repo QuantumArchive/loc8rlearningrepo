@@ -1,8 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://localhost/Loc8r';
-if (process.env.NODE_ENV === 'production') {
-  dbURI = "mongodb://heroku_zh58mm6r:b0fo05f7u8quemctlhndonhc1u@ds137090.mlab.com:37090/heroku_zh58mm6r"
-}
+var dbURI = "mongodb://heroku_zh58mm6r:b0fo05f7u8quemctlhndonhc1u@ds137090.mlab.com:37090/heroku_zh58mm6r"
 var gracefulShutdown;
 
 //declarations for secondary database
